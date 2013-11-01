@@ -84,3 +84,6 @@ class TestAdapterMerchantApi(unittest.TestCase):
         data = json.loads(request.text)
         print data
         print data['status']
+
+    def test_change_of_order(self):
+        pass
